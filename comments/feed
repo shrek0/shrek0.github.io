@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>תגובות לפוסט: &#34;הביט האחרון&#34;</title>
+	<atom:link href="http://localhost/blog/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>http://localhost/blog</link>
+	<description>קצת על אבטחת מידע, לינוקס, ועוד</description>
+	<lastBuildDate>Thu, 04 Sep 2014 17:03:08 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.1.1</generator>
+	<item>
+		<title>תגובה לפוסט: &#34;הרצת פקודות עקב פילטור לא נכון ב-netgear 2000v2 (או &quot;הפוסט הראשון שלי!&quot;)&#34; מאת &#34;אנונימי&#34;</title>
+		<link>http://localhost/blog/netgear-2200v2/#comment-5</link>
+		<dc:creator><![CDATA[אנונימי]]></dc:creator>
+		<pubDate>Thu, 04 Sep 2014 17:03:08 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.shrek0.tk/?p=10#comment-5</guid>
+		<description><![CDATA[תודה.]]></description>
+		<content:encoded><![CDATA[<p>תודה.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>תגובה לפוסט: &#34;הרצת פקודות עקב פילטור לא נכון ב-netgear 2000v2 (או &quot;הפוסט הראשון שלי!&quot;)&#34; מאת &#34;shrek0&#34;</title>
+		<link>http://localhost/blog/netgear-2200v2/#comment-4</link>
+		<dc:creator><![CDATA[shrek0]]></dc:creator>
+		<pubDate>Thu, 04 Sep 2014 16:31:44 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.shrek0.tk/?p=10#comment-4</guid>
+		<description><![CDATA[תודה רבה!
+
+זה בדיוק הדבר הבא שרציתי לעשות, אבל נגמר החופש אז זה יקח קצת יותר זמן.]]></description>
+		<content:encoded><![CDATA[<p>תודה רבה!</p>
+<p>זה בדיוק הדבר הבא שרציתי לעשות, אבל נגמר החופש אז זה יקח קצת יותר זמן.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>תגובה לפוסט: &#34;הרצת פקודות עקב פילטור לא נכון ב-netgear 2000v2 (או &quot;הפוסט הראשון שלי!&quot;)&#34; מאת &#34;m3n&#34;</title>
+		<link>http://localhost/blog/netgear-2200v2/#comment-3</link>
+		<dc:creator><![CDATA[m3n]]></dc:creator>
+		<pubDate>Thu, 04 Sep 2014 16:28:40 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.shrek0.tk/?p=10#comment-3</guid>
+		<description><![CDATA[אחלה מציאה ואחלה פוסט!
+מקווה שזה הראשון מתוך הרבה :)
+
+ניסית לחקור את הקריסה במקרה של קלט גדול מדי?]]></description>
+		<content:encoded><![CDATA[<p>אחלה מציאה ואחלה פוסט!<br />
+מקווה שזה הראשון מתוך הרבה <img src="http://localhost/blog/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /></p>
+<p>ניסית לחקור את הקריסה במקרה של קלט גדול מדי?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>תגובה לפוסט: &#34;הרצת פקודות עקב פילטור לא נכון ב-netgear 2000v2 (או &quot;הפוסט הראשון שלי!&quot;)&#34; מאת &#34;sbur&#34;</title>
+		<link>http://localhost/blog/netgear-2200v2/#comment-2</link>
+		<dc:creator><![CDATA[sbur]]></dc:creator>
+		<pubDate>Thu, 04 Sep 2014 13:31:00 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.shrek0.tk/?p=10#comment-2</guid>
+		<description><![CDATA[מציאה יפה מאוד, כל הכבוד!]]></description>
+		<content:encoded><![CDATA[<p>מציאה יפה מאוד, כל הכבוד!</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
