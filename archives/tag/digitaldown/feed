@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>הביט האחרון &#187; digitaldown</title>
+	<atom:link href="http://localhost/blog/archives/tag/digitaldown/feed" rel="self" type="application/rss+xml" />
+	<link>http://localhost/blog</link>
+	<description>קצת על אבטחת מידע, לינוקס, ועוד</description>
+	<lastBuildDate>Mon, 29 Dec 2014 17:51:34 +0000</lastBuildDate>
+	<language>he-IL</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.1.1</generator>
+	<item>
+		<title>DigitalDown 0.3 שוחרר!</title>
+		<link>http://localhost/blog/archives/100</link>
+		<comments>http://localhost/blog/archives/100#comments</comments>
+		<pubDate>Thu, 25 Dec 2014 13:35:05 +0000</pubDate>
+		<dc:creator><![CDATA[shrek0]]></dc:creator>
+				<category><![CDATA[כללי]]></category>
+		<category><![CDATA[תכנות]]></category>
+		<category><![CDATA[digital whisper]]></category>
+		<category><![CDATA[digitaldown]]></category>
+		<category><![CDATA[downloader]]></category>
+
+		<guid isPermaLink="false">https://blog.shrek0.tk/?p=100</guid>
+		<description><![CDATA[מדובר בסקריפט פשוט שאני וMrBot כתבנו המאפשר הורדה פשוטה של גליונות DigitalWhisper עם כמה פיצ'רים נחמדים כמו: הורדה מרובה של גליונות, הגדרת הפורמט של שם הקובץ ועוד. להורדה (zip, tar.gz), לדף הפרוייקט בGithub. תרגישו חופשיים להעיר, להאיר, או אפילו לשלוח גרסה משלכם. תהנו! &#160;]]></description>
+				<content:encoded><![CDATA[<p>מדובר בסקריפט פשוט שאני ו<a href="http://www.hacking.org.il/member.php?u=49">MrBot</a> כתבנו המאפשר הורדה פשוטה של גליונות <a href="http://www.digitalwhisper.co.il/">DigitalWhisper</a> עם כמה פיצ'רים נחמדים כמו: הורדה מרובה של גליונות, הגדרת הפורמט של שם הקובץ ועוד.</p>
+<p>להורדה (<a href="https://github.com/shrek0/DigitalDown/archive/0.3.zip">zip</a>, <a href="https://github.com/shrek0/DigitalDown/archive/0.3.tar.gz">tar.gz</a>), <a href="https://github.com/shrek0/DigitalDown">לדף הפרוייקט בGithub</a>.</p>
+<p>תרגישו חופשיים להעיר, להאיר, או אפילו לשלוח גרסה משלכם. תהנו!</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://localhost/blog/archives/100/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

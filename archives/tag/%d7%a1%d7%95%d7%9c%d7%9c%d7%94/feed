@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>הביט האחרון &#187; סוללה</title>
+	<atom:link href="http://localhost/blog/archives/tag/%d7%a1%d7%95%d7%9c%d7%9c%d7%94/feed" rel="self" type="application/rss+xml" />
+	<link>http://localhost/blog</link>
+	<description>קצת על אבטחת מידע, לינוקס, ועוד</description>
+	<lastBuildDate>Mon, 29 Dec 2014 17:51:34 +0000</lastBuildDate>
+	<language>he-IL</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.1.1</generator>
+	<item>
+		<title>מתקפת מניעת שירות מזווית קצת אחרת</title>
+		<link>http://localhost/blog/archives/58</link>
+		<comments>http://localhost/blog/archives/58#comments</comments>
+		<pubDate>Tue, 18 Nov 2014 16:09:24 +0000</pubDate>
+		<dc:creator><![CDATA[shrek0]]></dc:creator>
+				<category><![CDATA[האקינג]]></category>
+		<category><![CDATA[כללי]]></category>
+		<category><![CDATA[DoS]]></category>
+		<category><![CDATA[מניעת שירות]]></category>
+		<category><![CDATA[סוללה]]></category>
+		<category><![CDATA[פינג]]></category>
+
+		<guid isPermaLink="false">https://blog.shrek0.tk/?p=58</guid>
+		<description><![CDATA[כולנו מכירים את מתקפות מניעת השירות (DoS). בין אם זו Syn flood או Slowloris, רובן ככולן מנסות לדלל את משאביו של השרת כך שלא יוכל להשיב למשתמשים לגיטימים. בפוסט זה, אני אדבר על מתקפת מניעת שירות מסוג שונה לגמרי: מתקפת מניעת שירות בו אנו כתוקפים מעוניינים לדלל את משאביו של הקליינט כך שהמשתמש לא יוכל להשתמש בו. אז יאללה,...]]></description>
+				<content:encoded><![CDATA[<p>כולנו מכירים את מתקפות <a href="https://he.wikipedia.org/wiki/%D7%94%D7%AA%D7%A7%D7%A4%D7%AA_%D7%9E%D7%A0%D7%99%D7%A2%D7%AA_%D7%A9%D7%99%D7%A8%D7%95%D7%AA">מניעת השירות</a> (<a href="https://en.wikipedia.org/wiki/Denial-of-service_attack">DoS</a>). בין אם זו <a href="https://en.wikipedia.org/wiki/SYN_flood">Syn flood</a> או <a href="http://ha.ckers.org/slowloris/">Slowloris,</a> רובן ככולן מנסות לדלל את משאביו של השרת כך שלא יוכל להשיב למשתמשים לגיטימים. בפוסט זה, אני אדבר על מתקפת מניעת שירות מסוג שונה לגמרי: מתקפת מניעת שירות בו אנו כתוקפים מעוניינים לדלל את משאביו של הקליינט כך שהמשתמש לא יוכל להשתמש בו. אז יאללה, בואו נתחיל!</p>
+<p>נפתח בבעיה: אנו צריכים לגרום למכשיר נייד להתכבות. אין לנו מגע פיזי עם המכשיר אך אנו מחוברים איתו באותה רשת ה-Wifi.</p>
+<p>כמובן שיש אפשרות לנסות לנצל פרצה כלשהיא שתכבה אותו מיידית אך במקרה זה אנו לא יודעים על שום פרצה הניתנת לניצול.</p>
+<p><span id="more-58"></span></p>
+<p>מן הסתם פה לכמה ממכם כבר יעלה הרעיון הפשוט: נגרום לו להשתמש ב-Wifi ואז הבטרייה של המכשיר תאזול. איך נעשה זאת? פשוט מאד, למרות שאין שירותים פעילים במכשיר הפותחים פורט הפתוח לכלל הרשת, אנו נוכל לשלוח <a href="https://he.wikipedia.org/wiki/%D7%A4%D7%99%D7%A0%D7%92">פינג</a> וקרוב לוודאי שהמכשיר יענה לנו. בשיטה זאת הצלחתי להוריד כ-20 אחוזי סוללה בשעה לטאבלט שלי (כשעם מסך מכובה ו-Wifi דלוק הוא צורך כ-4 אחוזים לשעה).</p>
+<div id="attachment_70" style="width: 264px" class="wp-caption alignleft"><a href="https://blog.shrek0.tk/wp-content/uploads/2014/11/7.png"><img class="size-full wp-image-70" src="https://blog.shrek0.tk/wp-content/uploads/2014/11/7.png" alt="אחוז בטרייה אחד" width="254" height="166" /></a><p class="wp-caption-text">אני עומד למות! ;)</p></div>
+<p>ערכתי מספר בדיקות שהתחלקו לשני סוגים, עם פינגים ובלי פינגים: (המספרים הם באחוזי סוללה שירדו)</p>
+<ul>
+<li><em>10 דקות</em>: רגיל: 1. עם פינגים: 4-3 .</li>
+<li><em>60 דקות</em>: רגיל: 3 . עם פינגים: 18-19.</li>
+<li><em>4-5 שעות</em>: עם פינגים: 100.</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>במה זה מועיל לנו? אנו בעצם יכולים לכבות מכשיר כשהוא בכלל לא נמצא ליידנו וללא ניצול של פרצת אבטחה. אם לדוג' בעל המכשיר ישן ואני מעוניין לכבות את המכשיר שלו (כדי שלא יוכל לצלצל למשטרה כשיתעורר <img src="http://localhost/blog/wp-includes/images/smilies/icon_wink.gif" alt=";-)" class="wp-smiley" /> ) אני יכול לכבות לו את הפלא' מרחוק תוך חמש שעות בלבד וכל זאת בהנחה שסוללת המכשיר שלו טעונה לגמרי.</p>
+<p>כמובן שזה רק התחלה של מחקר בו אני מתכוון לנסות לשפר את הדרך הזו ולמצוא עוד דרכים יצירתיות כדי לגרום למכשירים להתכבות. אם יש לך רעיון לדרך כזו אני אשמח לשמוע עליו. אם אתם מעוניינים לנסות גם אצליכם, הכנתי סקריפט פייתון שיעשה לכם את העבודה (להורדה הקליקו <a href="https://blog.shrek0.tk/wp-content/uploads/2014/11/ping_flood.py_.zip">כאן</a>). אשמח אם תשתפו אותי בתוצאות שלכם.</p>
+<p>ולסיום, תודה רבה ל-CloudFlare שנתנו לי SSL בחינם (!), כעת אני יכול לכתוב פוסטים מכל מקום.</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://localhost/blog/archives/58/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
