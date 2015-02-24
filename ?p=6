@@ -4,15 +4,15 @@
 		<meta charset="UTF-8">
 		<title>אודות | הביט האחרון</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<link rel="alternate" type="application/rss+xml" title="הביט האחרון &raquo; פיד‏" href="http://localhost/blog/feed/" />
-<link rel="alternate" type="application/rss+xml" title="הביט האחרון &raquo; פיד תגובות‏" href="http://localhost/blog/comments/feed/" />
+		<link rel="alternate" type="application/rss+xml" title="הביט האחרון &raquo; פיד‏" href="http://localhost/blog/feed" />
+<link rel="alternate" type="application/rss+xml" title="הביט האחרון &raquo; פיד תגובות‏" href="http://localhost/blog/comments/feed" />
 <link rel='stylesheet' id='technews-style-css'  href='http://localhost/blog/wp-content/themes/technews/style.css?ver=4.1.1' type='text/css' media='all' />
 <script type='text/javascript' src='http://localhost/blog/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
 <script type='text/javascript' src='http://localhost/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/blog/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://localhost/blog/wp-includes/wlwmanifest.xml" /> 
 <link rel="stylesheet" href="http://localhost/blog/wp-content/themes/technews/rtl.css" type="text/css" media="screen" /><meta name="generator" content="WordPress 4.1.1" />
-<link rel='canonical' href='http://localhost/blog/about/' />
+<link rel='canonical' href='http://localhost/blog/about' />
 <link rel='shortlink' href='http://localhost/blog/?p=6' />
 <!--[if lt IE 9]><script type="text/javascript" src="http://localhost/blog/wp-content/themes/technews/js/html5shiv.js"></script><![endif]-->	<style type="text/css">
 		body{
@@ -57,8 +57,8 @@
 			<div class="sixteen columns nav-bar">
 				<nav>
 					<ul id="menu-%d7%aa%d7%a4%d7%a8%d7%99%d7%98-1" class="main-nav"><li id="menu-item-84" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-84"><a href="/">ראשי</a></li>
-<li id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-86"><a href="http://localhost/blog/projects/">פרוייקטים</a></li>
-<li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6 current_page_item menu-item-85"><a href="http://localhost/blog/about/">אודות</a></li>
+<li id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-86"><a href="http://localhost/blog/projects">פרוייקטים</a></li>
+<li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6 current_page_item menu-item-85"><a href="http://localhost/blog/about">אודות</a></li>
 </ul>                </nav>
 			</div>
 		</header><section class="eleven columns row single-page">
@@ -84,27 +84,27 @@
 							    		<li id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widgettitle">פוסטים אחרונים</h2>
 		<ul>
 					<li>
-				<a href="http://localhost/blog/digitaldown-0-3-%d7%94%d7%a9%d7%aa%d7%97%d7%a8%d7%a8/">DigitalDown 0.3 שוחרר!</a>
+				<a href="http://localhost/blog/archives/100">DigitalDown 0.3 שוחרר!</a>
 						</li>
 					<li>
-				<a href="http://localhost/blog/%d7%9e%d7%aa%d7%a7%d7%a4%d7%aa-%d7%9e%d7%a0%d7%99%d7%a2%d7%aa-%d7%a9%d7%99%d7%a8%d7%95%d7%aa-%d7%9e%d7%96%d7%95%d7%95%d7%99%d7%aa-%d7%a7%d7%a6%d7%aa-%d7%90%d7%97%d7%a8%d7%aa/">מתקפת מניעת שירות מזווית קצת אחרת</a>
+				<a href="http://localhost/blog/archives/58">מתקפת מניעת שירות מזווית קצת אחרת</a>
 						</li>
 					<li>
-				<a href="http://localhost/blog/%d7%98%d7%99%d7%a4-%d7%a9%d7%99%d7%a0%d7%95%d7%99-%d7%a2%d7%9e%d7%95%d7%93-%d7%94-newtab-%d7%91%d7%9b%d7%a8%d7%95%d7%9d-%d7%91%d7%90%d7%9e%d7%a6%d7%a2%d7%95%d7%aa-%d7%94%d7%a8%d7%97%d7%91%d7%aa/">טיפ: שינוי עמוד ה-newtab בכרום באמצעות הרחבת דפדפן.</a>
+				<a href="http://localhost/blog/archives/34">טיפ: שינוי עמוד ה-newtab בכרום באמצעות הרחבת דפדפן.</a>
 						</li>
 					<li>
-				<a href="http://localhost/blog/netgear-2200v2/">הרצת פקודות עקב פילטור לא נכון ב-netgear 2000v2 (או &quot;הפוסט הראשון שלי!&quot;)</a>
+				<a href="http://localhost/blog/archives/10">הרצת פקודות עקב פילטור לא נכון ב-netgear 2000v2 (או &quot;הפוסט הראשון שלי!&quot;)</a>
 						</li>
 					<li>
-				<a href="http://localhost/blog/%d7%a9%d7%9c%d7%95%d7%9d-%d7%a2%d7%95%d7%9c%d7%9d/">שלום עולם!</a>
+				<a href="http://localhost/blog/archives/1">שלום עולם!</a>
 						</li>
 				</ul>
 		</li>
 <li id="meta-2" class="widget widget_meta"><h2 class="widgettitle">כלים</h2>
 			<ul>
 						<li><a href="http://localhost/blog/wp-login.php">התחבר</a></li>
-			<li><a href="http://localhost/blog/feed/">פיד <abbr title="Really Simple Syndication">RSS</abbr> לפוסטים</a></li>
-			<li><a href="http://localhost/blog/comments/feed/">הזנת <abbr title="Really Simple Syndication">RSS</abbr> לתגובות</a></li>
+			<li><a href="http://localhost/blog/feed">פיד <abbr title="Really Simple Syndication">RSS</abbr> לפוסטים</a></li>
+			<li><a href="http://localhost/blog/comments/feed">הזנת <abbr title="Really Simple Syndication">RSS</abbr> לתגובות</a></li>
 <li><a href="https://he.wordpress.org/" title="פועל על וורדפרס, מערכת אישית פתוחה לניהול אתרים עצמאיים">WordPress.org</a></li>			</ul>
 </li>
 <li id="search-2" class="widget widget_search"><form method="get" id="searchform" action="http://localhost/blog">
@@ -118,22 +118,22 @@
 	<div id="footer-wrap">
 		 <div class="five columns"><h2 class="widgettitle">ארכיון</h2>
 		<ul>
-	<li><a href='http://localhost/blog/2014/12/'>דצמבר 2014</a></li>
-	<li><a href='http://localhost/blog/2014/11/'>נובמבר 2014</a></li>
-	<li><a href='http://localhost/blog/2014/09/'>ספטמבר 2014</a></li>
-	<li><a href='http://localhost/blog/2014/07/'>יולי 2014</a></li>
+	<li><a href='http://localhost/blog/archives/date/2014/12'>דצמבר 2014</a></li>
+	<li><a href='http://localhost/blog/archives/date/2014/11'>נובמבר 2014</a></li>
+	<li><a href='http://localhost/blog/archives/date/2014/09'>ספטמבר 2014</a></li>
+	<li><a href='http://localhost/blog/archives/date/2014/07'>יולי 2014</a></li>
 		</ul>
 </div><div class="five columns"><h2 class="widgettitle">קטגוריות</h2>
 		<ul>
-	<li class="cat-item cat-item-3"><a href="http://localhost/blog/category/%d7%94%d7%90%d7%a7%d7%99%d7%a0%d7%92/" >האקינג</a>
+	<li class="cat-item cat-item-3"><a href="http://localhost/blog/archives/category/%d7%94%d7%90%d7%a7%d7%99%d7%a0%d7%92" >האקינג</a>
 </li>
-	<li class="cat-item cat-item-5"><a href="http://localhost/blog/category/%d7%98%d7%99%d7%a4%d7%99%d7%9d/" >טיפים</a>
+	<li class="cat-item cat-item-5"><a href="http://localhost/blog/archives/category/%d7%98%d7%99%d7%a4%d7%99%d7%9d" >טיפים</a>
 </li>
-	<li class="cat-item cat-item-1"><a href="http://localhost/blog/category/%d7%9b%d7%9c%d7%9c%d7%99/" >כללי</a>
+	<li class="cat-item cat-item-1"><a href="http://localhost/blog/archives/category/%d7%9b%d7%9c%d7%9c%d7%99" >כללי</a>
 </li>
-	<li class="cat-item cat-item-4"><a href="http://localhost/blog/category/%d7%9c%d7%99%d7%a0%d7%95%d7%a7%d7%a1/" >לינוקס</a>
+	<li class="cat-item cat-item-4"><a href="http://localhost/blog/archives/category/%d7%9c%d7%99%d7%a0%d7%95%d7%a7%d7%a1" >לינוקס</a>
 </li>
-	<li class="cat-item cat-item-2"><a href="http://localhost/blog/category/%d7%aa%d7%9b%d7%a0%d7%95%d7%aa/" >תכנות</a>
+	<li class="cat-item cat-item-2"><a href="http://localhost/blog/archives/category/%d7%aa%d7%9b%d7%a0%d7%95%d7%aa" >תכנות</a>
 </li>
 		</ul>
 </div>		 <span id="wp-link">Proudly Powered By <a href="http://www.wordpress.org" target="_blank">WordPress</a> | <a href="http://www.wordpress.org/themes/technews">TechNews Theme</a></span>

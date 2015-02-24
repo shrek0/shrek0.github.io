@@ -9,7 +9,7 @@
 
 <channel>
 	<title>הביט האחרון</title>
-	<atom:link href="http://localhost/blog/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/blog/feed" rel="self" type="application/rss+xml" />
 	<link>http://localhost/blog</link>
 	<description>קצת על אבטחת מידע, לינוקס, ועוד</description>
 	<lastBuildDate>Mon, 29 Dec 2014 17:51:34 +0000</lastBuildDate>
@@ -19,8 +19,8 @@
 	<generator>http://wordpress.org/?v=4.1.1</generator>
 	<item>
 		<title>DigitalDown 0.3 שוחרר!</title>
-		<link>http://localhost/blog/digitaldown-0-3-%d7%94%d7%a9%d7%aa%d7%97%d7%a8%d7%a8/</link>
-		<comments>http://localhost/blog/digitaldown-0-3-%d7%94%d7%a9%d7%aa%d7%97%d7%a8%d7%a8/#comments</comments>
+		<link>http://localhost/blog/archives/100</link>
+		<comments>http://localhost/blog/archives/100#comments</comments>
 		<pubDate>Thu, 25 Dec 2014 13:35:05 +0000</pubDate>
 		<dc:creator><![CDATA[shrek0]]></dc:creator>
 				<category><![CDATA[כללי]]></category>
@@ -36,13 +36,13 @@
 <p>תרגישו חופשיים להעיר, להאיר, או אפילו לשלוח גרסה משלכם. תהנו!</p>
 <p>&nbsp;</p>
 ]]></content:encoded>
-			<wfw:commentRss>http://localhost/blog/digitaldown-0-3-%d7%94%d7%a9%d7%aa%d7%97%d7%a8%d7%a8/feed/</wfw:commentRss>
+			<wfw:commentRss>http://localhost/blog/archives/100/feed</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 		<item>
 		<title>מתקפת מניעת שירות מזווית קצת אחרת</title>
-		<link>http://localhost/blog/%d7%9e%d7%aa%d7%a7%d7%a4%d7%aa-%d7%9e%d7%a0%d7%99%d7%a2%d7%aa-%d7%a9%d7%99%d7%a8%d7%95%d7%aa-%d7%9e%d7%96%d7%95%d7%95%d7%99%d7%aa-%d7%a7%d7%a6%d7%aa-%d7%90%d7%97%d7%a8%d7%aa/</link>
-		<comments>http://localhost/blog/%d7%9e%d7%aa%d7%a7%d7%a4%d7%aa-%d7%9e%d7%a0%d7%99%d7%a2%d7%aa-%d7%a9%d7%99%d7%a8%d7%95%d7%aa-%d7%9e%d7%96%d7%95%d7%95%d7%99%d7%aa-%d7%a7%d7%a6%d7%aa-%d7%90%d7%97%d7%a8%d7%aa/#comments</comments>
+		<link>http://localhost/blog/archives/58</link>
+		<comments>http://localhost/blog/archives/58#comments</comments>
 		<pubDate>Tue, 18 Nov 2014 16:09:24 +0000</pubDate>
 		<dc:creator><![CDATA[shrek0]]></dc:creator>
 				<category><![CDATA[האקינג]]></category>
@@ -73,13 +73,13 @@
 <p>ולסיום, תודה רבה ל-CloudFlare שנתנו לי SSL בחינם (!), כעת אני יכול לכתוב פוסטים מכל מקום.</p>
 <p>&nbsp;</p>
 ]]></content:encoded>
-			<wfw:commentRss>http://localhost/blog/%d7%9e%d7%aa%d7%a7%d7%a4%d7%aa-%d7%9e%d7%a0%d7%99%d7%a2%d7%aa-%d7%a9%d7%99%d7%a8%d7%95%d7%aa-%d7%9e%d7%96%d7%95%d7%95%d7%99%d7%aa-%d7%a7%d7%a6%d7%aa-%d7%90%d7%97%d7%a8%d7%aa/feed/</wfw:commentRss>
+			<wfw:commentRss>http://localhost/blog/archives/58/feed</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 		<item>
 		<title>טיפ: שינוי עמוד ה-newtab בכרום באמצעות הרחבת דפדפן.</title>
-		<link>http://localhost/blog/%d7%98%d7%99%d7%a4-%d7%a9%d7%99%d7%a0%d7%95%d7%99-%d7%a2%d7%9e%d7%95%d7%93-%d7%94-newtab-%d7%91%d7%9b%d7%a8%d7%95%d7%9d-%d7%91%d7%90%d7%9e%d7%a6%d7%a2%d7%95%d7%aa-%d7%94%d7%a8%d7%97%d7%91%d7%aa/</link>
-		<comments>http://localhost/blog/%d7%98%d7%99%d7%a4-%d7%a9%d7%99%d7%a0%d7%95%d7%99-%d7%a2%d7%9e%d7%95%d7%93-%d7%94-newtab-%d7%91%d7%9b%d7%a8%d7%95%d7%9d-%d7%91%d7%90%d7%9e%d7%a6%d7%a2%d7%95%d7%aa-%d7%94%d7%a8%d7%97%d7%91%d7%aa/#comments</comments>
+		<link>http://localhost/blog/archives/34</link>
+		<comments>http://localhost/blog/archives/34#comments</comments>
 		<pubDate>Mon, 10 Nov 2014 22:27:56 +0000</pubDate>
 		<dc:creator><![CDATA[shrek0]]></dc:creator>
 				<category><![CDATA[טיפים]]></category>
@@ -120,13 +120,13 @@ document.location.href = url;
 <p>לקבצי קוד המקור הלוא ארוזים לחץ <a href="https://github.com/shrek0/DuckDuckGoNewtabChrome/">כאן</a>.</p>
 <p>&nbsp;</p>
 ]]></content:encoded>
-			<wfw:commentRss>http://localhost/blog/%d7%98%d7%99%d7%a4-%d7%a9%d7%99%d7%a0%d7%95%d7%99-%d7%a2%d7%9e%d7%95%d7%93-%d7%94-newtab-%d7%91%d7%9b%d7%a8%d7%95%d7%9d-%d7%91%d7%90%d7%9e%d7%a6%d7%a2%d7%95%d7%aa-%d7%94%d7%a8%d7%97%d7%91%d7%aa/feed/</wfw:commentRss>
+			<wfw:commentRss>http://localhost/blog/archives/34/feed</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 		<item>
 		<title>הרצת פקודות עקב פילטור לא נכון ב-netgear 2000v2 (או &quot;הפוסט הראשון שלי!&quot;)</title>
-		<link>http://localhost/blog/netgear-2200v2/</link>
-		<comments>http://localhost/blog/netgear-2200v2/#comments</comments>
+		<link>http://localhost/blog/archives/10</link>
+		<comments>http://localhost/blog/archives/10#comments</comments>
 		<pubDate>Wed, 03 Sep 2014 17:03:59 +0000</pubDate>
 		<dc:creator><![CDATA[shrek0]]></dc:creator>
 				<category><![CDATA[האקינג]]></category>
@@ -159,13 +159,13 @@ document.location.href = url;
 <p dir="rtl" align="right">זה הסיום של הפוסט הראשון שלי, אשמח לתגובות בונות.</p>
 <p dir="rtl" align="right">יום טוב <img src="http://localhost/blog/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /></p>
 ]]></content:encoded>
-			<wfw:commentRss>http://localhost/blog/netgear-2200v2/feed/</wfw:commentRss>
+			<wfw:commentRss>http://localhost/blog/archives/10/feed</wfw:commentRss>
 		<slash:comments>4</slash:comments>
 		</item>
 		<item>
 		<title>שלום עולם!</title>
-		<link>http://localhost/blog/%d7%a9%d7%9c%d7%95%d7%9d-%d7%a2%d7%95%d7%9c%d7%9d/</link>
-		<comments>http://localhost/blog/%d7%a9%d7%9c%d7%95%d7%9d-%d7%a2%d7%95%d7%9c%d7%9d/#comments</comments>
+		<link>http://localhost/blog/archives/1</link>
+		<comments>http://localhost/blog/archives/1#comments</comments>
 		<pubDate>Thu, 24 Jul 2014 17:16:59 +0000</pubDate>
 		<dc:creator><![CDATA[shrek0]]></dc:creator>
 				<category><![CDATA[כללי]]></category>
@@ -176,7 +176,7 @@ document.location.href = url;
 <p>פה אני אשתדל לפרסם מחקרים שלי, ודברים שאני עשיתי.</p>
 <p>אני מקווה שתהנו פה!</p>
 ]]></content:encoded>
-			<wfw:commentRss>http://localhost/blog/%d7%a9%d7%9c%d7%95%d7%9d-%d7%a2%d7%95%d7%9c%d7%9d/feed/</wfw:commentRss>
+			<wfw:commentRss>http://localhost/blog/archives/1/feed</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 	</channel>
