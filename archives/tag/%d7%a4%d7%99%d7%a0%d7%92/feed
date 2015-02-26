@@ -12,7 +12,7 @@
 	<atom:link href="http://localhost/blog/archives/tag/%d7%a4%d7%99%d7%a0%d7%92/feed" rel="self" type="application/rss+xml" />
 	<link>http://localhost/blog</link>
 	<description>קצת על אבטחת מידע, לינוקס, ועוד</description>
-	<lastBuildDate>Mon, 29 Dec 2014 17:51:34 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 26 Feb 2015 08:39:29 +0000</lastBuildDate>
 	<language>he-IL</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -37,7 +37,7 @@
 <p>כמובן שיש אפשרות לנסות לנצל פרצה כלשהיא שתכבה אותו מיידית אך במקרה זה אנו לא יודעים על שום פרצה הניתנת לניצול.</p>
 <p><span id="more-58"></span></p>
 <p>מן הסתם פה לכמה ממכם כבר יעלה הרעיון הפשוט: נגרום לו להשתמש ב-Wifi ואז הבטרייה של המכשיר תאזול. איך נעשה זאת? פשוט מאד, למרות שאין שירותים פעילים במכשיר הפותחים פורט הפתוח לכלל הרשת, אנו נוכל לשלוח <a href="https://he.wikipedia.org/wiki/%D7%A4%D7%99%D7%A0%D7%92">פינג</a> וקרוב לוודאי שהמכשיר יענה לנו. בשיטה זאת הצלחתי להוריד כ-20 אחוזי סוללה בשעה לטאבלט שלי (כשעם מסך מכובה ו-Wifi דלוק הוא צורך כ-4 אחוזים לשעה).</p>
-<div id="attachment_70" style="width: 264px" class="wp-caption alignleft"><a href="https://blog.shrek0.tk/wp-content/uploads/2014/11/7.png"><img class="size-full wp-image-70" src="https://blog.shrek0.tk/wp-content/uploads/2014/11/7.png" alt="אחוז בטרייה אחד" width="254" height="166" /></a><p class="wp-caption-text">אני עומד למות! ;)</p></div>
+<div id="attachment_70" style="width: 264px" class="wp-caption alignleft"><a href="http://localhost/blog/wp-content/uploads/2014/11/7.png"><img class="wp-image-70 size-full" src="http://localhost/blog/wp-content/uploads/2014/11/7.png" alt="אחוז בטרייה אחד" width="254" height="166" /></a><p class="wp-caption-text">אני עומד למות! ;)</p></div>
 <p>ערכתי מספר בדיקות שהתחלקו לשני סוגים, עם פינגים ובלי פינגים: (המספרים הם באחוזי סוללה שירדו)</p>
 <ul>
 <li><em>10 דקות</em>: רגיל: 1. עם פינגים: 4-3 .</li>

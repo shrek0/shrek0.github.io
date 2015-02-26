@@ -6,7 +6,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<link rel="alternate" type="application/rss+xml" title="הביט האחרון &raquo; פיד‏" href="http://localhost/blog/feed" />
 <link rel="alternate" type="application/rss+xml" title="הביט האחרון &raquo; פיד תגובות‏" href="http://localhost/blog/comments/feed" />
-<link rel="alternate" type="application/rss+xml" title="הביט האחרון &raquo; תגובות על הפוסט &quot;טיפ: שינוי עמוד ה-newtab בכרום באמצעות הרחבת דפדפן.&quot;&rlm;" href="http://localhost/blog/archives/34/feed" />
 <link rel='stylesheet' id='technews-style-css'  href='http://localhost/blog/wp-content/themes/technews/style.css?ver=4.1.1' type='text/css' media='all' />
 <script type='text/javascript' src='http://localhost/blog/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
 <script type='text/javascript' src='http://localhost/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
@@ -77,7 +76,7 @@
 			<p>אז ניסיתי לשנות את מנוע החיפוש שלי ל-<a href="https://duckduckgo.com/">DuckDuckGo</a> ששומר על הפרטיות שלנו בתור משתמשים. סך הכל הכל עבד טוב חוץ מהעובדה שאי אפשר לשנות את דף הכרסייה חדשה כך שיציג דף מותאם אישית ולכן אני לא יכול להגדיראת DuckDuckGo כך שיעלה במקום עמוד ה-newtab.</p>
 <p>לכן, חיפשתי פתרון ולבסוף כתבתי הרחבה (extension) לדפדפן שתעשה הפניה מעמוד ה-newtab לעמוד מותאם אישית. יש כבר <a href="https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna">הרחבה</a> כזו, אך היא יותר מידי מסובכת ומכילה המון קוד (שאני צריך לבדוק כיון שאני לא מכיר את כותבה).</p>
 <p><span id="more-34"></span></p>
-<p><div id="attachment_44" style="width: 574px" class="wp-caption alignleft"><a href="http://blog.shrek0.tk/wp-content/uploads/2014/11/temp12-e1415658654972.png"><img class="size-full wp-image-44" src="http://blog.shrek0.tk/wp-content/uploads/2014/11/temp12-e1415658654972.png" alt="DuckDuckGo [מקור: צילום מסך]" width="564" height="300" /></a><p class="wp-caption-text">DuckDuckGo [מקור: צילום מסך]</p></div>התלבטתי מעט אם להציג את הקבצים כך או להסביר קצת עליהם ולבסוף החלטתי להסביר קצת על תהליך יצירת התוסף הזה. אם זה לא מעניין אתכם, אתם מוזמן לדלג לסוף הפוסט להורדת הקוד.בכל מקרה, אני לא אלאה אתכם ואסתפק בהסבר כללי של הקוד של ההרחבה.</p>
+<p><div id="attachment_44" style="width: 574px" class="wp-caption alignleft"><a href="http://localhost/blog/wp-content/uploads/2014/11/temp12-e1415658654972.png"><img class="wp-image-44 size-full" src="http://localhost/blog/wp-content/uploads/2014/11/temp12-e1415658654972.png" alt="DuckDuckGo [מקור: צילום מסך]" width="564" height="300" /></a><p class="wp-caption-text">DuckDuckGo [מקור: צילום מסך]</p></div>התלבטתי מעט אם להציג את הקבצים כך או להסביר קצת עליהם ולבסוף החלטתי להסביר קצת על תהליך יצירת התוסף הזה. אם זה לא מעניין אתכם, אתם מוזמן לדלג לסוף הפוסט להורדת הקוד.בכל מקרה, אני לא אלאה אתכם ואסתפק בהסבר כללי של הקוד של ההרחבה.</p>
 <p>קודם כל, להרבה סוגי אפליקציות קיים קובץ שמתאר את האפליקציה ואת ההרשאות שלה, גם פה יש אחד כזה, שם הקובץ הוא: &quot;manifest.json&quot;. במקרה שלנו הוא נראה ככה:</p>
 <pre class="lang:default decode:true " dir="ltr" style="padding-left: 30px;">{
 	"manifest_version": 2,
@@ -107,20 +106,7 @@ document.location.href = url;
 	<!--comments div here-->
 <div class="eleven columns comments-div"><hr/>
 
-								<div id="respond" class="comment-respond">
-				<h3 id="reply-title" class="comment-reply-title">Post a Comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="/blog/archives/34#respond" style="display:none;">לבטל</a></small></h3>
-									<form action="http://localhost/blog/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
-																			<p class="comment-notes"><span id="email-notes">האימייל לא יוצג באתר.</span></p>							<p class="comment-form-author"><label for="author">שם</label> <input id="author" name="author" type="text" value="" size="30" /></p>
-<p class="comment-form-email"><label for="email">אימייל</label> <input id="email" name="email" type="email" value="" size="30" aria-describedby="email-notes" /></p>
-<p class="comment-form-url"><label for="url">אתר</label> <input id="url" name="url" type="url" value="" size="30" /></p>
-												<p class="comment-form-comment"><label for="comment">התגובה שלך</label> <textarea id="comment" name="comment" cols="45" rows="8" aria-describedby="form-allowed-tags" aria-required="true"></textarea></p>												<p class="form-submit">
-							<input name="submit" type="submit" id="submit" class="submit" value="SUBMIT COMMENT" />
-							<input type='hidden' name='comment_post_ID' value='34' id='comment_post_ID' />
-<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
-						</p>
-											</form>
-							</div><!-- #respond -->
-			</div>	
+		</div>	
 </section>
 
 <section class="five columns sidepostlist">

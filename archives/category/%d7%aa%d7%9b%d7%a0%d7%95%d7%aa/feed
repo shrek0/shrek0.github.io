@@ -12,7 +12,7 @@
 	<atom:link href="http://localhost/blog/archives/category/%d7%aa%d7%9b%d7%a0%d7%95%d7%aa/feed" rel="self" type="application/rss+xml" />
 	<link>http://localhost/blog</link>
 	<description>קצת על אבטחת מידע, לינוקס, ועוד</description>
-	<lastBuildDate>Mon, 29 Dec 2014 17:51:34 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 26 Feb 2015 08:39:29 +0000</lastBuildDate>
 	<language>he-IL</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -58,7 +58,7 @@
 				<content:encoded><![CDATA[<p>אז ניסיתי לשנות את מנוע החיפוש שלי ל-<a href="https://duckduckgo.com/">DuckDuckGo</a> ששומר על הפרטיות שלנו בתור משתמשים. סך הכל הכל עבד טוב חוץ מהעובדה שאי אפשר לשנות את דף הכרסייה חדשה כך שיציג דף מותאם אישית ולכן אני לא יכול להגדיראת DuckDuckGo כך שיעלה במקום עמוד ה-newtab.</p>
 <p>לכן, חיפשתי פתרון ולבסוף כתבתי הרחבה (extension) לדפדפן שתעשה הפניה מעמוד ה-newtab לעמוד מותאם אישית. יש כבר <a href="https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna">הרחבה</a> כזו, אך היא יותר מידי מסובכת ומכילה המון קוד (שאני צריך לבדוק כיון שאני לא מכיר את כותבה).</p>
 <p><span id="more-34"></span></p>
-<p><div id="attachment_44" style="width: 574px" class="wp-caption alignleft"><a href="http://blog.shrek0.tk/wp-content/uploads/2014/11/temp12-e1415658654972.png"><img class="size-full wp-image-44" src="http://blog.shrek0.tk/wp-content/uploads/2014/11/temp12-e1415658654972.png" alt="DuckDuckGo [מקור: צילום מסך]" width="564" height="300" /></a><p class="wp-caption-text">DuckDuckGo [מקור: צילום מסך]</p></div>התלבטתי מעט אם להציג את הקבצים כך או להסביר קצת עליהם ולבסוף החלטתי להסביר קצת על תהליך יצירת התוסף הזה. אם זה לא מעניין אתכם, אתם מוזמן לדלג לסוף הפוסט להורדת הקוד.בכל מקרה, אני לא אלאה אתכם ואסתפק בהסבר כללי של הקוד של ההרחבה.</p>
+<p><div id="attachment_44" style="width: 574px" class="wp-caption alignleft"><a href="http://localhost/blog/wp-content/uploads/2014/11/temp12-e1415658654972.png"><img class="wp-image-44 size-full" src="http://localhost/blog/wp-content/uploads/2014/11/temp12-e1415658654972.png" alt="DuckDuckGo [מקור: צילום מסך]" width="564" height="300" /></a><p class="wp-caption-text">DuckDuckGo [מקור: צילום מסך]</p></div>התלבטתי מעט אם להציג את הקבצים כך או להסביר קצת עליהם ולבסוף החלטתי להסביר קצת על תהליך יצירת התוסף הזה. אם זה לא מעניין אתכם, אתם מוזמן לדלג לסוף הפוסט להורדת הקוד.בכל מקרה, אני לא אלאה אתכם ואסתפק בהסבר כללי של הקוד של ההרחבה.</p>
 <p>קודם כל, להרבה סוגי אפליקציות קיים קובץ שמתאר את האפליקציה ואת ההרשאות שלה, גם פה יש אחד כזה, שם הקובץ הוא: &quot;manifest.json&quot;. במקרה שלנו הוא נראה ככה:</p>
 <pre class="lang:default decode:true " dir="ltr" style="padding-left: 30px;">{
 	"manifest_version": 2,
